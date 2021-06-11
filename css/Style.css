@@ -1,0 +1,231 @@
+* {padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+    }
+
+    body{
+        height: auto;
+        width: auto;
+    }
+
+
+.header1{
+    background-color: rgb(26, 36, 121);
+    height: 15vh;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    
+    font-size: 10vh;
+    margin: 1vh 0vh 2vh 5vh;
+    padding: 2vh;
+}
+
+div{
+    width: 70vh;
+    display: flex;
+    background-color: transparent;
+}
+
+nav{
+    background-color: transparent;
+    height: 10vh;
+    width:65vh;
+    margin-left: 50vh;
+    padding-top: 4.5vh;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow:hidden;
+  }
+ 
+  nav ul  li {
+   float: left;
+}
+nav ul li a {
+    display: block;
+    padding: 2vh;
+    background-color: #fffbfb;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+  }
+  li a:hover {
+    background-color: rgba(255, 255, 255, 0.952);
+  }
+
+
+
+
+
+#TituloIndex{
+background-color: transparent;
+width: auto;
+justify-content: center;
+
+
+}
+#TituloIndex h1{
+    text-align: center;
+    color: black;
+}
+
+#imgIndex{
+    display:inline-block;
+    width: 60vh;
+    height: 40vh;
+    margin: 10vh 0vh 10vh 20vh;
+    padding: 5vh;
+    vertical-align: middle;
+    background-color: rgb(77, 77, 77);
+    border-radius: 15px;
+}
+#img{
+width: 60vh;
+height: 40vh;
+
+}
+#info{
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    margin: 10vh 0vh 10vh 5vh; 
+    padding: 5vh;
+    vertical-align: middle;
+    width: 90vh;
+    height: 50vh;
+    display:inline-block ;
+}
+#info h3{
+    margin:1vh;
+    padding: 1vh;
+    font-size:5vh;
+    
+}
+
+
+.footer{
+    background-color: rgb(63, 62, 62);
+    margin-top: 50vh;
+    width: 100%;
+    height: 5vh;
+}
+.footer h4{
+    color: white;
+    font-size: 2.5vh;
+    text-align: right;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+#mainContent{
+    background-color: rgb(255, 255, 255);
+    
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+
+}
+
+#listaOrdenada{
+    background-color: rgb(63, 62, 62);
+    width: 150vh;
+    height: 70vh;
+    margin: 10vh;
+    font-size: 10vh;
+    border-radius: 30px;
+}
+#lista1{
+    color: white;
+    margin: 0 0 0 10vh;
+    padding: 10vh;
+}
+
+
+#table1, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+    padding: 5px;
+    background-color: white;
+
+  }
+  th{
+      background-color: rgb(136, 161, 243);
+  }
+  #table1{
+      width: 100%;
+  }
+#tableDiv{
+    background-color:rgb(77, 77, 77);
+    width: 100vh;
+    height: 40vh;
+    border-radius: 20px;
+    margin: 10vh;
+    padding: 10vh;
+}
+#formulario2{
+    margin: 10vh;
+    padding: 5vh;
+    display: inline-block;
+    background-color: rgb(212, 212, 228);
+    width: 100vh;
+    height: 90vh;
+}
+#inlineInput tr td{
+    width: 100vh;
+    background-color: transparent;
+    border: transparent;
+}
+#name{
+    width: 30vh;
+    height: 3.5vh;
+}
+#pais{
+    width: 55vh;
+    height: 3.5vh;
+}
+
+#inlineInput2{
+    
+
+}
+#inlineInput2 tr td{
+    width: 10vh;
+    background-color: transparent;
+    border: transparent;
+
+}
+#botao{
+    
+    margin:1vh;
+    padding: 1vh;
+    width: 15vh;
+    height: 4vh;
+    margin-left: 50vh;
+}
+#botao2{
+    
+    margin:1vh;
+    padding: 1vh;
+    width: 15vh;
+    height: 4vh;
+   
+}
+#footertabela{
+    background-color: transparent;
+    text-align: right;
+    justify-items: right ;
+    width: 100vh;
+    
+}
